@@ -28,7 +28,7 @@ function generateMessage() {
     let message = prompts[pIndex];
 
     // for every blank in prompt, fill in a random response without replacement
-    const numOfBlanks = (message.match(/<blank>/g)).length;
+    const numOfBlanks = message.match(/<blank>/g).length;
     const chosenResponses = [];
     
     for (let i = 0; i < numOfBlanks; i++) {
