@@ -1,12 +1,25 @@
-const prompts = [ // first part of message
-    'Call1 <blank>',
-    '<blank> Call2',
-    '<blank> Call3 <blank> <blank>'
+const prompts = [ 
+    "I'm sorry, Sir, but I couldn't complete my homework because of <blank>.",
+    "As the mum of five rambunctious boys, I'm no stranger to <blank>.",
+    'Bloody hell! My video of <blank> has ten million views!',
+    'Hey guys, welcome to TGI Fridays! Would you like to start the night off right with <blank>?',
+    'Goodbye, <blank>, hello <blank>!',
+    'And the BAFTA for <blank> goes to <blank>.'
 ]; 
-const responses = [ // second part of message
-    'Response1',
-    'Response2',
-    'Response3'
+const responses = [ 
+    'a “Live Laugh Love” tattoo',
+    'a comprehensive understanding of the Irish backstop',
+    'a deep-rooted fear of the working class',
+    'a foetus',
+    'a general lack of purpose',
+    'a Ginsters pasty and three cans of Monster Energy',
+    'an AK-47 assault rifle',
+    'a white van man',
+    'ripping off the Beatles',
+    'the Black Death',
+    'the bloody Welsh',
+    'the French',
+    'the sudden appearance of the Go Compare man'
 ];
 
 function generateMessage() {
